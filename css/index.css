@@ -96,6 +96,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     padding: 0 120px;
+    margin: 80px 0;
     background-color: lightgray;
 }
 .quality-1{
@@ -104,7 +105,10 @@ nav{
 .quality-2{
     flex: 6;
     flex-wrap: wrap;
-    padding: 10% 40px 0 0; 
+    padding: 20% 40px 0 0; 
+}
+.quality-1 img{
+    width: 90%;
 }
 .quality-2-header{
     margin-top: 10%;
@@ -187,7 +191,7 @@ padding: 5% 0 0 10%;
 
 footer{
     text-align: center;
-    padding: 40px 350px;
+    padding: 40px 200px;
 }
 .footer-header{
     font-size: 2em;
@@ -239,8 +243,7 @@ footer{
     }
     #hero-bg1{
         flex: 4;
-        padding-top: 17%;
-       
+        padding-top: 15%;
     }
     #hero-bg2{
         flex: 8;
@@ -297,15 +300,18 @@ footer{
     }
 
     .quality{
-      
+        display: block;
         background-color: lightgray;
         padding: 20px 0;
     }
     .quality-1{
      width: 100%;
     }
-    .quality-2{
+    .quality-1 img{
         width: 100%;
+    }
+    .quality-2{
+        width: 80%;
         padding: 10px 70px;
     }
     .quality-2-header{
@@ -314,6 +320,7 @@ footer{
     .quality-2-header .h3{
         font-size: 4em;
         color:royalblue;
+        width: 80%;
     }
     .quality-2 p{
         font-size: 2em;
@@ -429,16 +436,17 @@ footer{
         flex-wrap: wrap;
     }
     #hero-p{
-        font-size: 2em;
+        font-size: 1.5em;
         color: white;
     }
     #hero-header{
-        font-size: 4em;
+        font-size: 3em;
         color: white;
         border-bottom: 8px solid white;
     }
     #hero-bg1{
         flex: 4;
+        flex-wrap: wrap;
         padding-top: 15%;
     }
     #hero-bg2{
@@ -512,8 +520,9 @@ footer{
         border-bottom:0.7em solid red;
     }
     .quality-2-header .h3{
-        font-size: 4.5em;
+        font-size: 4em;
         color:royalblue;
+        width: 80%;
     }
     .quality-2 p{
         font-size: 1.5em;
