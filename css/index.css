@@ -446,7 +446,7 @@ footer{
         color: white;
     }
     #hero-header{
-        font-size: 2.5em;
+        font-size: 2.8em;
         color: white;
         border-bottom: 8px solid white;
     }
@@ -656,7 +656,7 @@ footer{
     #hero-bg1{
         flex: 4;
         flex-wrap: wrap;
-        padding-top: 30%;
+        padding-top: 40%;
     }
     #hero-bg2{
         flex: 8;
