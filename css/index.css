@@ -1,6 +1,6 @@
 body{
     margin: 0% !important;
-    box-sizing: border-box;
+    padding: 0%;
 }
 
 nav{
@@ -222,7 +222,7 @@ footer{
 /*media Query for ipad starts here*/
 /*media Query for ipad starts here*/
 
-@media (min-width: 480px) and (max-width: 780px){
+@media (max-width: 780px) and (min-width: 495px){
     
     .hero-bg{
         background-image: url(../images/hero-bg.jpg);
@@ -233,11 +233,11 @@ footer{
         flex-wrap: wrap;
     }
     #hero-p{
-        font-size: 3.5em;
+        font-size: 3em;
         color: white;
     }
     #hero-header{
-        font-size: 6.5em;
+        font-size: 5.5em;
         color: white;
         border-bottom: 8px solid white;
     }
@@ -426,7 +426,13 @@ footer{
 /*media Query for mobile starts here*/
 /*media Query for mobile starts here*/
 
-@media (max-width: 480px) {
+@media (max-width: 495px) and (min-width: 300px){
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+    }
     .hero-bg{
         background-image: url(../images/hero-bg.jpg);
         background-size:center;
@@ -436,11 +442,11 @@ footer{
         flex-wrap: wrap;
     }
     #hero-p{
-        font-size: 1.5em;
+        font-size: 1.2em;
         color: white;
     }
     #hero-header{
-        font-size: 3em;
+        font-size: 2.5em;
         color: white;
         border-bottom: 8px solid white;
     }
@@ -467,10 +473,10 @@ footer{
         color: grey;
     }
     #service-p-2{
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
     #service-header{
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     .right{
@@ -488,27 +494,27 @@ footer{
         padding: 10px 0;
     }
     .right-1-1 p{
-        font-size: 2em;
+        font-size: 1.5em;
     }
     .right-2{
         width: 100%;
     }
     .right-2 p{
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: bolder;
     }
     .call-us{
         color: red;
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: bolder;
     }
     .quality{
         background-color: lightgray;
-        padding: 20px 40px ;
+        padding: 15px 20px ;
         display: block;
     }
     .quality-1{
-     
+     margin: 0%;
     }
     .quality-1 img{
         width: 100%;
@@ -518,27 +524,26 @@ footer{
     }
     .quality-2-header{
         border-bottom:0.7em solid red;
+        
     }
     .quality-2-header .h3{
-        font-size: 4em;
+        font-size: 3em;
         color:royalblue;
-        width: 80%;
+        width: 100%;
+        
     }
     .quality-2 p{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .quality-btn{
         background-color: red;
-        padding: 20px 40px;
+        padding: 15px 30px;
         border: none;
         color: white;
     }
-
-
-
     #our-service-header{
         margin-left: 10%;
-        font-size: 3.5em;
+        font-size: 3.1em;
     }
     .our-services{
         display: flex;
@@ -551,20 +556,20 @@ footer{
     margin-bottom: 20px;
     }
     .our-services-one h3{
-        font-size: 2em;
+        font-size: 1.7em;
     }
     .our-services-one p{
-        font-size: 1.8em;
+        font-size: 1.3em;
     }
   
 
     #article-services{
         color: white;
-        font-size: 5em;
+        font-size: 4em;
     }
     #article-plumbing{
         color: white;
-        font-size: 4.5em;
+        font-size: 3.5em;
     }
     #article-about-us{
         color: white;
@@ -590,12 +595,12 @@ footer{
     padding: 40px 50px;
 }
 .footer-header{
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: tahoma;
 }
 .footer-p{
     font-family: sans-serif;
-    font-size: 3em;
+    font-size: 1.8em;
 }
 .btn{
     width: 50%;
@@ -604,7 +609,7 @@ footer{
 }
 .book-btn{
     background-color: red;
-    padding: 30px 60px;
+    padding: 15px 40px;
     border: none;
     color: white;
     display: block;
@@ -612,13 +617,222 @@ footer{
     width: 100%;
 }
 .call-btn{
-    padding: 30px 60px;
+    padding: 15px 40px;
     display: block;
     width: 100%;
 }  
+}
 
+/*media Query for smaller mobile starts here*/
+/*media Query for smaller mobile starts here*/
+/*media Query for smaller mobile starts here*/
+/*media Query for smaller mobile starts here*/
+
+
+@media (max-width: 299px) and (min-width: 189px){
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px;
+    }
+    .hero-bg{
+        background-image: url(../images/hero-bg.jpg);
+        background-size:contain;
+        background-repeat: no-repeat;
+        height: 15vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #hero-p{
+        font-size: 0.7em;
+        color: white;
+    }
+    #hero-header{
+        font-size: 1.2em;
+        color: white;
+        border-bottom: 8px solid white;
+    }
+    #hero-bg1{
+        flex: 4;
+        flex-wrap: wrap;
+        padding-top: 15%;
+    }
+    #hero-bg2{
+        flex: 8;
+        display: none;
+    }
+    .work-tools{
+        display: none;
+    }
+
+    .service{
+        padding: 30px 10%;
+        text-align: center;
+        background-color: lightgray;
+    }
+    #service-p{
+        text-transform: uppercase;
+        color: grey;
+    }
+    #service-p-2{
+        font-size: 0.4em;
+    }
+    #service-header{
+        font-size: 1.4em;
+    }
+
+    .right{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px 15px;
+    }
+    .right-1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .right-1-1{
+        padding: 10px 0;
+    }
+    .right-1-1 p{
+        font-size: 1.1em;
+    }
+    .right-2{
+        width: 100%;
+    }
+    .right-2 p{
+        font-size: 1em;
+        font-weight: bolder;
+    }
+    .call-us{
+        color: red;
+        font-size: 0.8em;
+        font-weight: bolder;
+    }
+    .quality{
+        background-color: lightgray;
+        padding: 20px 40px ;
+        display: block;
+
+    }
+    .quality-1{
+     margin: 0%;
+    }
+    .quality-1 img{
+        width: 100%;
+    }
+    .quality-2{
+        padding: 10px;
+    }
+    .quality-2-header{
+        border-bottom:0.4em solid red;
+    }
+    .quality-2-header .h3{
+        font-size: 1.5em;
+        color:royalblue;
+        width: 100%;
+        
+    }
+    .quality-2 p{
+        font-size: 0.7em;
+    }
+    .quality-btn{
+        background-color: red;
+        padding: 10px 15px;
+        border: none;
+        color: white;
+    }
+    #our-service-header{
+        margin-left: 10%;
+        font-size: 2.4em;
+    }
+    .our-services{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 10%;
+        justify-content: space-between;   
+    }
+    .our-services-one{
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    .our-services-one h3{
+        font-size: 1.2em;
+    }
+    .our-services-one p{
+        font-size: 0.9em;
+    }
+
+    #article-services{
+        color: white;
+        font-size: 2.5em;
+    }
+    #article-plumbing{
+        color: white;
+        font-size: 2.6em;
+    }
+    #article-about-us{
+        color: white;
+        font-size: 0.8em;
+    }
+.main-article{
+    background-color: rgb(86, 140, 211);
+    padding: 30px 0;
+    display: block;
+}
+.article-2-1{
+    padding: 10px 10px 10px 20px;
+    align-content: center;
 
 }
+.article-2-1 img{
+   width: 100%;
+   height: 100%;
+}
+
+footer{
+    text-align: center;
+    padding: 30px 40px;
+}
+.footer-header{
+    font-size: 1.2em;
+    font-family: tahoma;
+}
+.footer-p{
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+.btn{
+    width: 50%;
+    margin: 10px 20%;
+    display: block;
+    text-align: center;
+}
+.book-btn{
+    background-color: red;
+    padding: 5px 40px;
+    border: none;
+    color: white;
+    display: block;
+    margin-bottom: 40px;
+    width: 70%;
+}
+.call-btn{
+    padding: 5px 40px;
+    display: block;
+    width: 70%;
+}  
+
+
+
+
+
+
+
+
+
 
 
 
